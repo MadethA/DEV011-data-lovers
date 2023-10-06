@@ -36,9 +36,9 @@ Se comenzó con el diseño del prototipo de baja fidelidad:
 Las sugerencias que recibimos para mejorar la usabilidad fueron las siguientes:
 - La imagen del header contrasta con el color del título.
 - Las imágenes están descentradas.
-- Las tarjetas no tienen el mismoz
+- Las tarjetas no tienen el mismo tamaño.
 - El idioma para presentar la información está mezclado, se mezcla el inglés y el español.
-![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/38021c55-8db5-4271-bb22-8ae4d52deb5f)
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/bc993332-168c-4434-a2fa-52635fdf2f60)
 
 ![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/f12d2225-3551-4a61-abb1-8191f9ffc1a9)
 
