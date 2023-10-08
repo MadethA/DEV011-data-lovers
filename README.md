@@ -26,22 +26,36 @@ En cada tarjeta de personaje, encontrará detalles adicionales que ayudarán a c
 
 ## 3. Historias de usuaria
 
- ![Alt text](./imagenes/image.png)
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/4a172e00-16a6-4358-9f9e-2c5766d166ac)
 
 ## 4. Proceso de diseño
 Se comenzó con el diseño del prototipo de baja fidelidad:
-![Alt text](./imagenes/image-1.png)
-![Alt text](./imagenes/image-2.png)
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/a2e79b2d-6c02-4f22-8eca-dda026dad282)
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/02b18a1c-c948-4045-ae31-a2863d11f8d1)
+
 ## 5. Pruebas de usabilidad
 Las sugerencias que recibimos para mejorar la usabilidad fueron las siguientes:
 - La imagen del header contrasta con el color del título.
 - Las imágenes están descentradas.
-- Las tarjetas no tienen el mismoz
+- Las tarjetas no tienen el mismo tamaño.
 - El idioma para presentar la información está mezclado, se mezcla el inglés y el español.
-![Alt text](./imagenes/image-3.png)
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/bc993332-168c-4434-a2fa-52635fdf2f60)
+
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/f12d2225-3551-4a61-abb1-8191f9ffc1a9)
+
+Una versión anterior a la final:
+
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/aba48e54-bb6d-42a8-af16-4cd6fb8a8a2f)
 ## 6. Versión final. 
 Después de implementar las sugerencias la versión final es la siguiente:
-![Alt text](./imagenes/imagefinal.png)
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/6d1895cc-e099-45c5-b6c8-08065ca7910e)
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/e955cd82-cbb0-4807-8e0b-5841965756a6)
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/78be8ddc-4020-4597-bf3b-33627c038234)
+
+
+
+
+
 
 
 
