@@ -48,10 +48,7 @@ Una versión anterior a la final:
 ![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/aba48e54-bb6d-42a8-af16-4cd6fb8a8a2f)
 ## 6. Versión final. 
 Después de implementar las sugerencias la versión final es la siguiente:
-![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/6d1895cc-e099-45c5-b6c8-08065ca7910e)
-![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/e955cd82-cbb0-4807-8e0b-5841965756a6)
-![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/78be8ddc-4020-4597-bf3b-33627c038234)
-
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/5b652fa5-3c22-4a8b-8f74-f4a527bfb48b)
 
 
 
