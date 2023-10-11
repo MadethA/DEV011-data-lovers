@@ -1,0 +1,171 @@
+/*Fuentes*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&family=Rock+Salt&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Martian+Mono:wght@700&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&family=Rock+Salt&display=swap');
+
+/*html * {
+  background-color: rgba(0, 0, 0, 0.767);
+}*/
+html * {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  background-color: rgb(27, 32, 36);
+}
+header {
+  box-sizing: content-box;
+}
+header {
+  background-image: url(https://wallpapers.com/images/hd/rick-and-morty-unamused-rick-agpuysmhk3lhdl4p.jpg);
+  background-color: rgb(27, 32, 36);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 18rem;
+  flex-shrink: 50%;
+  padding-top: 0px;
+  position: relative;
+  max-width: 100%;
+  max-height: 50%;
+}
+
+h1 * {
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 70px;
+  margin-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 70px;
+  padding-left: 10px;
+}
+
+h1 {
+  color: #57dd36;
+  background-color: transparent;
+  text-align: left;
+  text-shadow: 2px #92f57ade;
+  font: 700 35px "Martian Mono", bold;
+  position: sticky;
+  flex-shrink: 50%;
+}
+
+button,
+button * {
+  padding: 1rem;
+  border-radius: 8rem;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #57dd36;
+  color: #ffffff;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+
+  .button:hover {
+    background-color: #219804;
+    box-shadow: 40px rgba(48, 241, 23, 0.711);
+  }
+}
+
+@media (max-width: 768px) {
+  .random-facts {
+    position: absolute;
+    right: 0;
+    /*width: 13%;
+    height: 3em;*/
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}
+
+select,
+select * {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8rem;
+  border-color: #57dd36;
+  padding: 0.8rem;
+}
+
+ul {
+  padding: 0 10px 0 10px;
+  display: flex;
+  justify-content: center; /* Alineación horizontal al centro */
+  align-items: stretch; /* Alineación vertical al inicio */
+  gap: 30px; /* Espacio entre elementos secundarios */
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.personaje {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.personaje {
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+width: calc(20% - 5px); /* Para dividir en 3 columnas con un espacio de 30px entre ellas */
+border: 1px solid lightgray;
+box-shadow: 0px 0px 4px 4px #d3d3d3d1;
+border-radius:15px;
+font-family: sans-serif;
+text-overflow: ellipsis;
+align-self: stretch;
+}
+
+.personaje img {
+  max-width: 100%; /* Hace que la imagen tenga un ancho máximo del 100% del contenedor */
+  height: auto;
+  width: auto; /* Asegura que la altura se ajuste automáticamente para mantener la proporción */
+}
+
+.personaje h2 {
+  text-align: center;
+  font-size: 1 em;
+  padding: 8px 8px 0 8px;
+}
+
+.personaje h3 {
+  text-align: center;
+  font-size: 1 em;
+  padding: 7px;
+}
+
+.info {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 15px;
+  flex-flow: row;
+  background-color: rgb(27, 32, 36);
+}
+
+footer {
+  color: #57dd36;
+  font-family: 10px "Martian mono", bold;
+  background-color: rgb(27, 32, 36);
+  font-size: 10px;
+  position: absolute;
+}
+
+/* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+@media (max-width : 768px) {
+
+  .personaje {
+    width: 35% !important;
+  }     
+}
+
+@media (max-width : 390px) {
+    .personaje {
+      width: 80% !important;
+  } 
+}
