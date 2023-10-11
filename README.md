@@ -2,54 +2,54 @@
 
 ## Índice
 
-* [1. Presentación del producto](#1-presentación-del-producto)
-* [2. Historias de usuario](#2-historias-de-usuario)
-* [3. Diseño de la interfaz](#3-diseño-de-la-interfaz)
-* [4. Comentarios sobre la usabilidad](#4-comentarios-sobre-la-usabilidad)
-
-
+* [1. Introducción](#1-Introducción)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Historias de usuaria](#3-Historias-de-usuaria)
+* [4. Proceso de diseño](#4-Proceso-de-diseño)
+* [5. Pruebas de usabilidad](#5-Pruebas-de-usabilidad)
+* [6. Versión final](#6-Versión-final)
 ***
 
-## 1. Presentación del producto
+## 1. Introducción
 
-Este proyecto es una página web que permite visualizar un conjunto de set de datos para facilitar a las usuarias buscar la información que les interesa a través de un filtrado y ordenado de la data. Adicionalmente contiene información estadística sobre los datos de la base, que permite conocer cuántos personajes con género masculino, femenino e indefinido hay en la serie. Es interesante notar que la mayoría de estos son del género masculino.
+¡Bienvenida a la página de "Rick and Morty" dedicada a las fascinantes especies de los personajes! Sumérgete en el vasto multiverso de la serie y descubre las diversas y a menudo extravagantes criaturas que habitan en él.
 
-Nuestra web trabaja con la data presentada en las siguientes fuentes:
-* [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
-  Este set nos proporciona la lista de los personajes de la serie Rick and
-  Morty. [API Rick and Morty](https://rickandmortyapi.com).
-  - [Investigación con seguidores de Rick and Morty](src/data/rickandmorty/README.md)
+En "Rick and Morty", el protagonista, Rick Sanchez, junto a su nieto Morty Smith, exploran innumerables dimensiones y mundos, cada uno poblado por seres únicos y extraños. En la página podrás conocer las distintas especies de los personajes y asi adentrarte en el loco multiverso.
 
+## 2. Resumen del proyecto
 
-## 2. Historias de usuario
+La página está diseñada para mostrar todos los personajes de "Rick and Morty", permitiéndo filtrar las los personajes de acuerdo a su especie.
 
-Para organizar el proyecto nos basamos en Historias de Usuario que nos permitieran cumplir con las espectativas de usabilidad de los destinatarios finales. Estas fueron las siguientes:
+La herramienta de filtrado permitirá explorar las especies de acuerdo al interés de la usuaria, ya sea que quiera profundizar en los misteriosos Cronenbergs o conocer más sobre los bizarros humanoides. Además, podrá organizar la lista de personajes tanto en orden ascendente como descendente.
 
-* Como usuaria, cuando acceda a la página, debería ver una **lista de datos en tarjetas**:
-  - Una página donde se muestren **tarjetas con la información** que requiera cada personaje
-* Como usuaria necesito ver la información de los personajes en **tarjetas con imagen e información**
-* Como usuaria deberia encontrar **elementos de navegación** para acceder a los datos:
-  - **Botones** que me permitan **filtrar, ordenar y limpiar la información**
-  - Un header que contenga 2 filtros para información por categoría y que permitan ordenar Ascendente o descendentemente la info
-* Como usuaria me gustaria que tenga un **diseño responsivo** que se adapte a pantallas móviles
+En cada tarjeta de personaje, encontrará detalles adicionales que ayudarán a comprender mejor el multiverso de "Rick and Morty". ¡
 
-Cada una de estas Historias de Usuario se convirtieron en accionables para desarrollar en cada sprint del proyecto. Estas las fuimos monitoreando en un tablero de Miró: (https://miro.com/app/board/uXjVMlscEy4=/?share_link_id=130406911244) 
+## 3. Historias de usuaria
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/4a172e00-16a6-4358-9f9e-2c5766d166ac)
 
+## 4. Proceso de diseño
+Se comenzó con el diseño del prototipo de baja fidelidad:
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/a2e79b2d-6c02-4f22-8eca-dda026dad282)
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/02b18a1c-c948-4045-ae31-a2863d11f8d1)
 
-## 3. Diseño de la interfaz
+## 5. Pruebas de usabilidad
+Las sugerencias que recibimos para mejorar la usabilidad fueron las siguientes:
+- La imagen del header contrasta con el color del título.
+- Las imágenes están descentradas.
+- Las tarjetas no tienen el mismo tamaño.
+- El idioma para presentar la información está mezclado, se mezcla el inglés y el español.
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/bc993332-168c-4434-a2fa-52635fdf2f60)
 
-Con base en las historias anteriores fuimos bocetando la forma en la que queríamos ver la información. Desarrollamos algunos modelos de baja y media fidelidad.
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/f12d2225-3551-4a61-abb1-8191f9ffc1a9)
 
-* Este fue el primero en Lucind: (https://lucid.app/lucidspark/033ad340-42ba-4cbc-9fdc-c55bc2e61a33/edit?invitationId=inv_f5cdaed4-a7c5-4f2f-9fdf-3012f87d22c4&page=0_0#)
-* Este fue el segundo en Figma, que consideró la vista en un dispositivo móvil: (https://www.figma.com/file/JSupFpK72AmIzDm9ob5Ln0/Data-Lovers%2FR%26M-prototype?type=design&node-id=0%3A1&mode=design&t=kywJaAoO7IKULlME-1)
+Una versión anterior a la final:
 
-Con estos dos modelos comenzamos a trabajar y fuimos modificando el aspecto y los colores de acuerdo al desarrollo en código.
-
-
-## 4. Comentarios sobre la usabilidad
-
-Algunos de los botones y elementos del header que consideramos al inicio los removimos, pues la página quedó en una sóla vista que despliega toda la información.
-Sobre los comentarios y la retroalimentación que nos dieron algunas compañeras, sugirieron que se utilizaran colores que hiceran más contraste con las imágenes y los colores usados en el arte de la serie, que suelen ser vibrantes y fluorescentes. Esto supuso un reto, sobretodo para lograr la legibilidad de títulos y elementos de la página.
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/aba48e54-bb6d-42a8-af16-4cd6fb8a8a2f)
+## 6. Versión final. 
+Después de implementar las sugerencias la versión final es la siguiente:
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/6d1895cc-e099-45c5-b6c8-08065ca7910e)
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/e955cd82-cbb0-4807-8e0b-5841965756a6)
+![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/78be8ddc-4020-4597-bf3b-33627c038234)
 
 
 
