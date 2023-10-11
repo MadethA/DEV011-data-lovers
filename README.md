@@ -1,4 +1,4 @@
-# Data Lovers
+# Data Lovers de Rick & Morty (Dupla DL9: Amparo Madeth & Irma Solano)
 
 ## Índice
 
@@ -50,6 +50,7 @@ Después de implementar las sugerencias la versión final es la siguiente:
 ![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/6d1895cc-e099-45c5-b6c8-08065ca7910e)
 ![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/e955cd82-cbb0-4807-8e0b-5841965756a6)
 ![image](https://github.com/MadethA/DEV011-data-lovers/assets/142620601/78be8ddc-4020-4597-bf3b-33627c038234)
+
 
 
 
